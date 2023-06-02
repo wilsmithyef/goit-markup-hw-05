@@ -28,7 +28,9 @@
           <a class="logo" href="">WebStudio</a>
           <!--menu-->
           <ul class="nav-menu">
-            <li><a href="./index.html" class="page current">Estudio</a></li>
+            <li><a tabindex="0" data-descr="" href="./index.html" class="page current">Estudio</a></li>
+
+
             <li><a href="./portfolio.html" class="page">Portafolio</a></li>
             <li><a href="#" class="contacts page">Contactos</a></li>
           </ul>
@@ -66,19 +68,21 @@
 
     <!--main content section-->
     <main>
-      <section class="backdrop" data-backdrop>
-        <form action="" class="modal-form" data-modal></form>
-
-      </section>
-
-
-
       <!--Hero section-->
       <section class="hero-bg-hero">
-        <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="button-primary" type="button" data-modal-open>
-          Solicite nuestro servicio
-        </button>
+        <div>
+          <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <button data-modal-open class="button-primary" type="button">
+            Solicite nuestro servicio
+          </button>
+        </div>
+
+        <div class="backdrop is-hidden" data-modal="">
+          <div class="modal">
+            <button class="modal-form" data-modal-close>X</form>
+          </div>
+        </div>
+
         <!-- <div class="overlay"></div> -->
       </section>
 
@@ -438,7 +442,6 @@
       </section>
     </main>
 
-    
     <footer class="footer">
       <div class="footer-container">
         <address class="footer-address">
