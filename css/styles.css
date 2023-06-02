@@ -159,14 +159,13 @@ header nav .nav-menu .page {
 
 header nav .nav-menu a[data-descr] {
   position: relative;
-  text-decoration:none;
+  text-decoration: none;
   cursor: pointer;
-  
 }
 
 a[data-descr]:hover::after,
 a[data-descr]:focus::after {
-  content:attr(data-descr) ;
+  content: attr(data-descr);
   position: absolute;
   left: 1px;
   top: 37px;
@@ -174,7 +173,7 @@ a[data-descr]:focus::after {
   height: 4px;
   padding-right: 0px;
   margin: 0 auto;
-  
+
   border: 4px #2196f3 solid;
 
   border-radius: 10px;
@@ -360,7 +359,7 @@ header li .icon-mailbox {
   margin: 8px 8px 8px 490px;
   width: 30px;
   height: 30px;
-  
+
   background: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   transform: translateY(0);
