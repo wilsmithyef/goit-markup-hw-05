@@ -343,8 +343,7 @@ header li .icon-mailbox {
 .modal {
   width: 528px;
   height: 581px;
-  margin-top: 221px;
-  margin-left: 0 auto;
+  margin-top: 3%;
 
   background: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
